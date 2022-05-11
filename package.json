@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
+    "test": "hello"
+  },
+  "keywords": [
+    "blog",
+    "blog2022"
+  ],
+  "author": "hainguyen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "express-handlebars": "^6.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
